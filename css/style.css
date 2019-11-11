@@ -5,6 +5,45 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+*{margin:0;padding:0}
+
+.image-wrapper {
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  width: 400px;
+  background-color: #e2f1f5;
+
+}
+
+.image-wrapper > img {
+  width: 60%;
+  margin-top: 21px;
+}
+
+.cut {
+  background: #fff; /* A cor dos elementos antes e depois */
+  display: block;
+  top: 0; bottom: 0;
+  position: absolute;
+  width: 100px
+}
+
+.left {
+  -webkit-transform: skew(30deg) translateX(-70px);
+      -ms-transform: skew(30deg) translateX(-70px);
+          transform: skew(30deg) translateX(-70px);
+  left: 0
+}
+
+.right {
+  -webkit-transform: skew(30deg) translateX(70px);
+      -ms-transform: skew(30deg) translateX(70px);
+          transform: skew(30deg) translateX(70px);
+  right: 0
+}
+
+
 a:focus,
 button:focus {
 	outline: none !important;
@@ -4777,9 +4816,9 @@ html.boxed body {
 	margin-top: 15px;
 }
 
-* + img {
+/* * + img {
 	margin-top: 30px;
-}
+} */
 
 h5 + h2 {
 	margin-top: 18px;
