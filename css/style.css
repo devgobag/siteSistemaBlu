@@ -7,43 +7,6 @@
 
 *{margin:0;padding:0}
 
- /* botão para vc e empresa */
-
-.btn-2 {
-position:fixed;
-background-color:#e2f1f5;
-text-align: center;
-text-decoration: none;
-color:#000 !important;
-display: inline-block;
-padding: 10px 35px 10px 35px !important;
-margin-bottom: 25px !important;
-margin-top: 25px !important;
-margin-left: 1px !important;
-margin-right: 1px !important;
-border-radius:5px;
-}
-
-.btn-2::before{
-
-	height: 4px !important;
-	background: #000 !important;
-	border-radius:5px !important;
-}
-
-.btn-2 {
-transition: .5s;
-}
-/* .btn-2:hover {
-animation-name: btn2;
-animation-delay: .5s;
-animation-duration: .5s;
-animation-timing-function: linear;
-animation-iteration-count: 1
-} */
-
-/* fim do botão */
-
 .image-wrapper {
   height: 100px;
   overflow: hidden;
@@ -7202,7 +7165,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-nav-item + .rd-nav-item {
-	margin-left: 30px;
+	margin-left: 10px;
 }
 
 .rd-navbar-static .rd-nav-link {
@@ -8613,14 +8576,14 @@ html.rd-navbar-fixed-linked .page {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	padding-left: 15px;
+	padding-left: 50px;
 	padding-right: 80px;
 	transition: all .3s ease;
 }
 
 @media (min-width: 1200px) {
 	.rd-navbar-modern.rd-navbar-static .rd-navbar-main {
-		padding-right: 110px;
+		padding-right: 20px;
 	}
 }
 
@@ -8639,12 +8602,12 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-modern.rd-navbar-static .rd-nav-item + .rd-nav-item {
-	margin-left: 40px;
+	margin-left: 20px;
 }
 
 @media (min-width: 1200px) {
 	.rd-navbar-modern.rd-navbar-static .rd-nav-item + .rd-nav-item {
-		margin-left: 45px;
+		margin-left: 25px;
 	}
 }
 
@@ -8676,7 +8639,7 @@ html.rd-navbar-fixed-linked .page {
 	.rd-navbar-modern.rd-navbar-static .rd-nav-link {
 		font-size: 18px;
 		line-height: 1.34;
-		padding: 32px 0;
+		padding: 55px 0 18px 0;
 		color: #ffffff;
 	}
 }
@@ -8722,7 +8685,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-modern.rd-navbar-static.rd-navbar--is-stuck .rd-nav-link, .rd-navbar-modern.rd-navbar-static.rd-navbar--is-clone .rd-nav-link {
-	padding: 22px 0;
+	padding: 55px 0 18px 0;
 	color: #000000;
 }
 
