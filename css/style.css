@@ -8582,8 +8582,8 @@ html.rd-navbar-fixed-linked .page {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	padding-left: 50px;
-	padding-right: 80px;
+	padding-left: 40px;
+	padding-right: 60px;
 	transition: all .3s ease;
 }
 
@@ -8633,7 +8633,7 @@ html.rd-navbar-fixed-linked .page {
 	line-height: 1.5;
 	letter-spacing: .075em;
 	text-transform: none;
-	color: #151515;
+	color: #fff;
 }
 
 .rd-navbar-modern.rd-navbar-static .rd-nav-link::before {
