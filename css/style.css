@@ -43,6 +43,7 @@
     font-weight: bold;
     float: left;
     padding: 10px;
+    padding-top: 48px;
 }
 
 .texto2-paraVc{
@@ -54,6 +55,7 @@
     color: #2b49a0;
     font-weight: bold;
     float: left;
+    padding-top: 18px;
 }
 
 .texto1-paraEmp{
