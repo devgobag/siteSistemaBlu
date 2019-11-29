@@ -56,6 +56,32 @@
     float: left;
 }
 
+.texto1-paraEmp{
+    font-size: 1.3em !important;
+    text-align: left !important;
+    width: auto;
+    padding: 0 15px;
+    border-bottom: none;
+    color: #2b49a0;
+    font-weight: bold;
+    float: left;
+    padding: 10px;
+    padding-top: 31px;
+}
+
+.texto2-paraEmp{
+    font-size: 1.3em !important;
+    text-align: left !important;
+    width: auto;
+    padding: 0 5px;
+    border-bottom: none;
+    color: #2b49a0;
+    font-weight: bold;
+    float: left;
+    padding-top: 62px;
+    padding-left: 36px;
+}
+
 .img-paraVc{
     z-index: 1000;
     float: left;
@@ -73,11 +99,25 @@
     margin-left: -22px;
   }
 
+.linha-vertical-emp {
+    height: 145px;
+    border-left: 3px solid #2b49a0;
+    margin-top: 29px;
+    margin-left: -22px;
+  }
+
 
 @media(max-width: 414px ){
     .linha-vertical {
         border-left: 3px solid #0000;
       }
+    .linha-vertical-emp {
+        border-left: 3px solid #0000;
+      }
+    .texto1-paraEmp{
+        padding-left: 31px;
+    }
+    
 }
   /* final do card */
 .image-wrapper {
